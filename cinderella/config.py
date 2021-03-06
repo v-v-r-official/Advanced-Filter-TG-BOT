@@ -12,14 +12,14 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
+    API_KEY = "1546569228:AAGzmY9PdulQoafMRaygsj5s7TRxtCjYA68"
+    OWNER_ID = "1414146649"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "YOUR USERNAME HERE"
-    API_ID = "" # Your api id
-    API_HASH = "" # Your api hash
+    API_ID = "3343389" # Your api id
+    API_HASH = "3a20ed9427d8b5c50577c99212e9380b" # Your api hash
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = None
     LOAD = []
@@ -35,7 +35,7 @@ class Config(object):
     SUPPORT_USERS = get_user_list('elevated_users.json', 'supports')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = get_user_list('elevated_users.json', 'whitelists')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     SPAMMERS = None
-    DONATION_LINK = None  # EG, paypal
+    DONATION_LINK = 'https://paypal.me/VivekTVP'  # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
