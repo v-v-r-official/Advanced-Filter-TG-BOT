@@ -14,14 +14,14 @@ class Config(object):
     # REQUIRED
     API_KEY = "1546569228:AAGzmY9PdulQoafMRaygsj5s7TRxtCjYA68"
     OWNER_ID = "1414146649"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    OWNER_USERNAME = "Vivek_Kerala"
     API_ID = "3343389" # Your api id
     API_HASH = "3a20ed9427d8b5c50577c99212e9380b" # Your api hash
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = None
+    GBAN_LOGS = '-1001476290750'
     LOAD = []
     NO_LOAD = ['translation', 'rss']
     WEBHOOK = False
